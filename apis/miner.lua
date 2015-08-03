@@ -6,6 +6,9 @@ Written by apemanzilla
 ]]
 
 -- Basic blacklist for vanilla 'junk' blocks
+
+assert(os.loadAPI("go"), "failed to load required API")
+
 local oreblacklist = {
 	Cobblestone = {name = "minecraft:cobblestone"},
 	Stone = {name = "minecraft:stone"},
