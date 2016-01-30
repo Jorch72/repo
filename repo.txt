@@ -7,6 +7,6 @@ name = utils
 	target = /usr/apis
 	setup = utils install
 	cleanup = utils remove
-	version = 1.01
-	size = 2591
+	version = 1.02
+	size = 2636
 end

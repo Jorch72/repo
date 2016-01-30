@@ -15,6 +15,8 @@ if #args > 0 then
 			f.write(startup_loader .. fdata)
 			f.close()
 		end
+		-- load API
+		os.loadAPI("usr/apis/utils")
 	elseif args[1] == "remove" then
 		-- remove line from startup
 		local f = fs.open("startup","r")
