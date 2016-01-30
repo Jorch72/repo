@@ -10,3 +10,14 @@ name = utils
 	version = 1.02
 	size = 2636
 end
+
+name = quickreboot
+	type = raw
+		url = https://raw.githubusercontent.com/apemanzilla/repo/master/apis/quickreboot.lua
+		filename = qr
+	category = utility
+	dependencies = none
+	target = /usr/bin
+	version = 1.0
+	size = 50
+end
