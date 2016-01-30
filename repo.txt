@@ -4,9 +4,9 @@ name = utils
 		filename = utils
 	category = api
 	dependencies = none
-	setup = /usr/apis/utils install
-	cleanup = /usr/apis/utils remove
 	target = /usr/apis
+	setup = utils install
+	cleanup = utils remove
 	version = 1.01
 	size = 2591
 end

@@ -2,7 +2,7 @@
 
 local args = {...}
 
-local startup_loader = "\nos.loadAPI 'usr/apis/utils'"
+local startup_loader = "os.loadAPI 'usr/apis/utils'\n"
 
 if #args > 0 then
 	if args[1] == "install" then
