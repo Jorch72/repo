@@ -5,7 +5,9 @@ local args = {...}
 
 if #args > 0 then
 	if args[1] == "install" then
-		print(package.installed.sysman.apemanzilla.files[1].path)
+		local path = fs.combine(package.installRoot, "usr/apis")
+		print(path)
+		print(fs.exists(path))
 	elseif args[1] == "remove" then
 
 	end
