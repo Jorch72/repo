@@ -1,0 +1,10 @@
+name = utils
+	type = raw
+		url = https://raw.githubusercontent.com/apemanzilla/repo/master/apis/utils.lua
+		filename = utils
+	category = api
+	dependencies = none
+	target = /usr/apis
+	version = 1.0
+	size = 1877
+end
